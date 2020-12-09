@@ -1,0 +1,65 @@
+/* Importo i font che userò */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+/* Azzero i default per tutti i browser */
+:root {
+    --accent-color: #1473E6;
+    /* vedere il link per capire i valori: https://codepen.io/sosuke/pen/Pjoqqp */
+    --accent-color-svg: brightness(0) saturate(100%) invert(36%) sepia(93%) saturate(1123%) hue-rotate(191deg) brightness(88%) contrast(104%);
+    --c-black-30: rgba(75, 75, 75, 1);
+    --c-black-20: rgba(110, 110, 110, 1);
+    --root-font-size: 16px;
+    --fs-x-small: 0.75rem;
+    --fs-xx-small: 0.5rem;
+    --font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+html,
+body {
+  margin: 2px;
+  padding: 2px;
+  font-family: var(--font-family);
+  font-size: var(--root-font-size);
+}
+
+p {
+    text-align: justify;
+}
+
+header p {
+    color: var(--c-black-20);
+    font-size: var(--fs-xx-small);
+    font-weight: bold;
+}
+
+header p > :first-child {
+    color: var(--c-black-30);
+    font-size: var(--fs-x-small);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+footer .time-to-read {
+    font-size: var(--fs-xx-small);
+    font-weight: bold;
+    color: rgba(110, 110, 110, 1);
+}
+
+footer .read-full {
+    font-size: var(--fs-x-small);
+    font-weight: bold;
+    color: var(--accent-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+footer a.read-full {
+    text-decoration: none;
+}
+footer .read-full img {
+    filter: var(--accent-color-svg);
+}
