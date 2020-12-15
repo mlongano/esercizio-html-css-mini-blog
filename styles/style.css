@@ -23,13 +23,15 @@ html,
 
 body {
   margin: 2px;
-  padding: 2px;
+  padding: 5px;
   font-family: var(--font-family);
   font-size: var(--root-font-size);
+  box-sizing: border-box;
 }
 
 header.top {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
     padding: var(--p-padding-around);
@@ -39,6 +41,7 @@ header.top {
 header nav ul {
     display: flex ;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 header nav ul li {
     list-style: none;
@@ -116,6 +119,7 @@ article {
 aside {
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 aside article {
@@ -126,6 +130,13 @@ aside article {
     padding: 10px;
     justify-content: space-between;
 }
+
+aside article > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 article h2, article h1{
     padding: 0;
     margin: 8px 0 0 0;
@@ -137,31 +148,26 @@ article p {
 }
 
 article.main {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "img header"
-    "img content"
-    "img footer";
-    column-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
 }
 
-article.main img {
-    grid-area: img;
+article.main > img {
+    width: 100%;
+    height: 100%;
+    padding-right: 20px;
+    object-fit: contain;
+    flex: 1 1 500px;
 }
 
-article.main header {
-    grid-area: header;
+div.main-article {
+    flex: 1 1 200px;
 }
 
-article.main .content {
-    grid-area: content;
+div.content {
+    flex: 1 1 200px;
 }
-
-article.main footer {
-    grid-area: footer;
-}
-
 
 
