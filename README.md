@@ -18,3 +18,9 @@ Colors play a vital role in making a web page usable or not. In CSS, we can cont
 
 ## Css Variables
 CSS variables are custom properties that cascade normally and even inherit. They start with a reserved -- prefix, and there are no real rules about their value.
+
+## Aprire github.dev sul progetto
+Dalla pagina principale di github (code) basta usare il punto "." sulla tastiera per aprire l'ambiente "VS Code" di sviluppo del progetto
+
+## Deployment su github.io
+Nella pagina di setting basta usare Github Pages
