@@ -1,8 +1,12 @@
 # Primo esercizio di HTML-CSS
 
-Basandoti sull'immagine sottostante crea la struttura HTML ed il corrispondente foglio di stile per che riproducano la pagina sito web illustrato
-
-![template sito web](./docs/HomePage.jpg)
+Basandoti sulle immagini sottostanti crea la struttura HTML ed il corrispondente foglio di stile per che riproducano la pagina *responsive* sito web illustrato
+### template sito web - mobile
+![template sito web - mobile](./docs/HomePage-sm.jpg =320x)
+### template sito web - medium size
+![template sito web - medium size](./docs/HomePage-md.jpg =700x)
+### template sito web - large size
+![template sito web - large size](./docs/HomePage-lg.jpg =1024x)
 
 ### I testi presenti nell'immagine sono:
 ## Optimizing CSS for faster page loads
