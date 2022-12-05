@@ -2,11 +2,11 @@
 
 Basandoti sulle immagini sottostanti crea la struttura HTML ed il corrispondente foglio di stile per che riproducano la pagina *responsive* sito web illustrato
 ### template sito web - mobile
-![template sito web - mobile](./docs/HomePage-sm.jpg =320x)
+<img src="./docs/HomePage-sm.jpg" width="320" alt="template sito web - mobile">
 ### template sito web - medium size
-![template sito web - medium size](./docs/HomePage-md.jpg =700x)
+<img src="./docs/HomePage-md.jpg" width="700x" alt="template sito web - medium size">
 ### template sito web - large size
-![template sito web - large size](./docs/HomePage-lg.jpg =1024x)
+<img src="./docs/HomePage-lg.jpg" width="1024x" alt="template sito web - large size">
 
 ### I testi presenti nell'immagine sono:
 ## Optimizing CSS for faster page loads
